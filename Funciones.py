@@ -1,19 +1,3 @@
-"""
-Funciones Recursivas: son funciones 
-que se llaman a sí mismas para resolver 
-un problema dividiéndolo en instancias más
-pequeñas del mismo problema.
-
-Funciones Iterativas: son funciones que 
-utilizan bucles o ciclos para ejecutar 
-un conjunto de instrucciones repetidamente 
-hasta que se cumple una condición de salida.
-
-Factorizacion: es el proceso matemático de 
-descomponer una expresión o número en factores 
-más simples que, al multiplicarse juntos, 
-producen el valor original.
-"""
 
 from time import perf_counter
 
@@ -56,8 +40,6 @@ inicio = perf_counter()
 
 for i in range(10):
 	print(i, factorizacion_iteractiva(i), factorizacion_recursiva(i))
-
-for i in range(10):
 	recursiva(i)
 
 final = perf_counter()

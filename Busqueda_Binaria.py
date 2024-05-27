@@ -46,4 +46,5 @@ def busqueda_recursiva(lista, bajo, alto, dato):
 for i in range(10, 19):
 
 	print(f"Iterativa: {i} _ {busqueda_iterativa(lista, i)}")
-	print(f"Recursiva: {i} _ {busqueda_recursiva(lista, 0, len(lista) - 1, i)}")
+	print(f"Recursiva: {i} _ {busqueda_recursiva(lista, 0, 
+		len(lista) - 1, i)}")
